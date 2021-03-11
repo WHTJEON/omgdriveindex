@@ -5517,8 +5517,8 @@ function init() {
         UI.disable_navicon == true ? "none" : "block"
       }">
 				<ul class="menu_ul">
-					<li class="menu_li"><a href="https://telegram.dog/sawankumar" target="_blank">Contact333</a></li>
-					<li class="menu_li"><a href="https://github.com/sawankumar/Google-Drive-Index-III" target="_blank">Github</a></li>
+					<li class="menu_li"><a href="" target="_blank">Contact</a></li>
+					<li class="menu_li"><a href="https://github.com/WHTJEON" target="_blank">Github</a></li>
 				</ul>
 				<div class="nav_icon" ></div>
 			</div>
@@ -5675,8 +5675,6 @@ function list(path) {
 	 <div class="mdui-row"> 
 	  <ul id="list" class="mdui-list"> 
 	  </ul> 
-	  <div id="count" class="mdui-hidden mdui-center mdui-text-center mdui-m-b-3 mdui-typo-subheading mdui-text-color-blue-grey-500">Total <span class="number"></span> Item</div>
-	 </div>
 	`;
   $("#content").html(content);
   var password = localStorage.getItem("password" + path);
@@ -6145,12 +6143,8 @@ function file_video(path) {
 	<div class="mdui-video-fluid mdui-center" id="dplayer"></div>
 	<br>${playBtn}
 	<!-- ???? -->
-	<div class="mdui-textfield">
-	  <label class="mdui-textfield-label">Download Link</label>
-	  <input class="mdui-textfield-input" type="text" value="${url}"/>
-	</div>
 </div>
-<a href="${url}" class="mdui-fab mdui-fab-fixed mdui-ripple mdui-color-theme-accent"><i class="mdui-icon material-icons">file_download</i></a>
+
 	`;
   $("#content").html(content);
   $("#copy-link").on("click", () => {
