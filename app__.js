@@ -5512,7 +5512,8 @@ function init() {
   var html = `
 <header class="nexmoe-nav">
 	<div class="navSize">
-			<a href="/"><img class="avatar" src="${UI.avatar}"/></a>
+			<a href="/"><img class="
+" src="${UI.avatar}"/></a><h3>OMG DRIVE</h3>
 			<div class="nav_menu"  style="display:${
         UI.disable_navicon == true ? "none" : "block"
       }">
