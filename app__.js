@@ -5517,8 +5517,7 @@ function init() {
         UI.disable_navicon == true ? "none" : "block"
       }">
 				<ul class="menu_ul">
-					<li class="menu_li"><a href="" target="_blank">Contact</a></li>
-					<li class="menu_li"><a href="https://github.com/WHTJEON" target="_blank">Github</a></li>
+					<li class="menu_li"><a href="" target="_blank">Welcome to OMG DRIVE</a></li>
 				</ul>
 				<div class="nav_icon" ></div>
 			</div>
@@ -6075,12 +6074,6 @@ function file_code(path) {
 <div class="mdui-container">
 <pre id="editor" ></pre>
 </div>
-<div class="mdui-textfield">
-	<label class="mdui-textfield-label">Download Link</label>
-	<input class="mdui-textfield-input" type="text" value="${href}"/>
-</div>
-<a href="${href}" class="mdui-fab mdui-fab-fixed mdui-ripple mdui-color-theme-accent"><i class="mdui-icon material-icons">file_download</i></a>
-
 <script src="//cdn.jsdelivr.net/gh/sawankumar/Google-Drive-Index-III/js/ace.js"></script>
 <script src="//cdn.jsdelivr.net/gh/sawankumar/Google-Drive-Index-III/js/ext-language_tools.js"></script>
 	`;
